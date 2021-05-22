@@ -5,15 +5,15 @@ name: SGSI_Build
 on: [push]
     
 env:              
-  ROM_URL: 'https://www.priiiyocloud.workers.dev/0://blueline-spb1.210331.013-factory-517d58c9/blueline-spb1.210331.013/image-blueline-spb1.210331.013.zip'
-  ZIP_NAME: 'update.zip'
-  OS_TYPE: 'Pixel'
+  ROM_URL: 'https://mirrorgang.techharz.workers.dev/MIUI-CAF_12.6_Beta_Lavender_21.4.14-v10.zip'
+  ZIP_NAME: 'MIUI-CAF_12.6_Beta_Lavender_21.4.14-v10.zip'
+  OS_TYPE: 'miui'
   BUILD_TYPE: 'ab'
-  REPACK_NAME: 'Blueline_Beta_SGSI.zip'
+  REPACK_NAME: 'lavender_SGSI.zip'
   VERSION: '12'
-  upload _SourceForge: 'true'
+  upload _SourceForge: 'false'
   upload_WeTransfer: 'true'
-  upload_action-gh-release: 'true'
+  upload_action-gh-release: 'false
   SETUP: 'true'
   
 jobs:
