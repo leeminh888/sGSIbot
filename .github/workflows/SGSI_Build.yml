@@ -13,7 +13,7 @@ env:
   VERSION: '12'
   upload _SourceForge: 'false'
   upload_WeTransfer: 'true'
-  upload_action-gh-release: 'false
+  upload_action-gh-release: 'false'
   SETUP: 'true'
   
 jobs:
