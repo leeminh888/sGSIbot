@@ -7,10 +7,10 @@ on: [push]
 env:              
   ROM_URL: 'https://mirrorgang.techharz.workers.dev/MIUI-CAF_12.6_Beta_Lavender_21.4.14-v10.zip'
   ZIP_NAME: 'MIUI-CAF_12.6_Beta_Lavender_21.4.14-v10.zip'
-  OS_TYPE: 'MIUI'
+  OS_TYPE: 'Generic'
   BUILD_TYPE: 'ab'
   REPACK_NAME: 'lavender_SGSI.zip'
-  VERSION: '10'
+  VERSION: '12'
   upload _SourceForge: 'false'
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
